@@ -14,7 +14,6 @@ A **Virtual Private Network (VPN)** creates an encrypted tunnel between your dev
 ## Observations
 - **Protocol Used**: WireGuard (UDP)
 - **Encryption**: ChaCha20 (for data encryption) and Poly1305 (for authentication)
-- **Default Port**: UDP 51820
 - **Traffic Behavior**:  
   - All internet traffic routed through a single VPN server IP.
   - Packet payloads appear as random binary data (encrypted).
